@@ -112,7 +112,11 @@ class _HomePageState extends State<HomePage> {
               ),
               SizedBox(height: 20),
               Container(
+<<<<<<< Updated upstream
                 height: MediaQuery.of(context).size.height * 0.39,
+=======
+                height: 240,
+>>>>>>> Stashed changes
                 //color: Colors.pink,
                 child: ListView.builder(
                     physics: BouncingScrollPhysics(),
